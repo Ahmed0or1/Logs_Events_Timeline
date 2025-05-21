@@ -15,9 +15,9 @@ This script parses system log files (auth.log, firewall.log, workstations.log) a
 
 
 ## 🎨 Terminal Color Coding
-- `auth.log` → Green
-- `firewall.log` → Red
-- `workstations.log` → Blue
+- `auth.log`         → Green  🟢
+- `firewall.log`     → Red    🔴
+- `workstations.log` → Blue   🔵
 
 ## 🚀 Usage
 ```bash
