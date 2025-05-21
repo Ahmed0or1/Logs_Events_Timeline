@@ -1,0 +1,308 @@
+2023-04-26T17:17:01-06:00 baboon-srv CRON[6370]: pam_unix(cron:session): session opened for user root by (uid=0)
+2023-04-26T17:17:01-06:00 baboon-srv CRON[6370]: pam_unix(cron:session): session closed for user root
+2023-04-26T17:17:01.584857-06:00 cheetah-srv CRON[1630]: pam_unix(cron:session): session opened for user root by (uid=0)
+2023-04-26T17:17:01.592041-06:00 cheetah-srv CRON[1630]: pam_unix(cron:session): session closed for user root
+2023-04-26T18:17:01-06:00 baboon-srv CRON[6391]: pam_unix(cron:session): session opened for user root by (uid=0)
+2023-04-26T18:17:01-06:00 baboon-srv CRON[6391]: pam_unix(cron:session): session closed for user root
+2023-04-26T18:17:01.606315-06:00 cheetah-srv CRON[8072]: pam_unix(cron:session): session opened for user root by (uid=0)
+2023-04-26T18:17:01.613757-06:00 cheetah-srv CRON[8072]: pam_unix(cron:session): session closed for user root
+2023-04-26T18:47:48.230065-06:00 cheetah-srv login[642]: pam_unix(login:auth): check pass; user unknown
+2023-04-26T18:47:48.230715-06:00 cheetah-srv login[642]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty2 ruser= rhost= 
+2023-04-26T18:47:50.988036-06:00 cheetah-srv login[642]: FAILED LOGIN (1) on '/dev/tty2' FOR 'UNKNOWN', Authentication failure
+2023-04-26T18:47:56.727366-06:00 cheetah-srv login[642]: pam_unix(login:session): session opened for user user1 by LOGIN(uid=0)
+2023-04-26T18:48:21.735045-06:00 cheetah-srv sudo:    user1 : TTY=tty2 ; PWD=/home/user1 ; USER=root ; COMMAND=/bin/su
+2023-04-26T18:48:21.748871-06:00 cheetah-srv su[11794]: Successful su for root by root
+2023-04-26T18:48:21.749444-06:00 cheetah-srv su[11794]: + /dev/tty2 root:root
+2023-04-26T18:48:21.751316-06:00 cheetah-srv su[11794]: pam_unix(su:session): session opened for user root by user1(uid=0)
+2023-04-26T18:56:50-06:00 baboon-srv sshd[6423]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:56:53-06:00 baboon-srv sshd[6423]: Failed password for root from 172.30.1.77 port 60372 ssh2
+2023-04-26T18:56:56-06:00 baboon-srv sshd[6423]: last message repeated 2 times
+2023-04-26T18:56:56-06:00 baboon-srv sshd[6423]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:56:57-06:00 baboon-srv sshd[6425]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:56:59-06:00 baboon-srv sshd[6425]: Failed password for root from 172.30.1.77 port 60373 ssh2
+2023-04-26T18:57:02-06:00 baboon-srv sshd[6425]: last message repeated 2 times
+2023-04-26T18:57:02-06:00 baboon-srv sshd[6425]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:02-06:00 baboon-srv sshd[6427]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:04-06:00 baboon-srv sshd[6427]: Failed password for root from 172.30.1.77 port 60374 ssh2
+2023-04-26T18:57:07-06:00 baboon-srv sshd[6427]: last message repeated 2 times
+2023-04-26T18:57:07-06:00 baboon-srv sshd[6427]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:07-06:00 baboon-srv sshd[6429]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:09-06:00 baboon-srv sshd[6429]: Failed password for root from 172.30.1.77 port 60375 ssh2
+2023-04-26T18:57:13-06:00 baboon-srv sshd[6429]: last message repeated 2 times
+2023-04-26T18:57:13-06:00 baboon-srv sshd[6429]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:13-06:00 baboon-srv sshd[6431]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:15-06:00 baboon-srv sshd[6431]: Failed password for root from 172.30.1.77 port 60376 ssh2
+2023-04-26T18:57:19-06:00 baboon-srv sshd[6431]: last message repeated 2 times
+2023-04-26T18:57:19-06:00 baboon-srv sshd[6431]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:19-06:00 baboon-srv sshd[6433]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:21-06:00 baboon-srv sshd[6433]: Failed password for root from 172.30.1.77 port 60377 ssh2
+2023-04-26T18:57:26-06:00 baboon-srv sshd[6433]: last message repeated 2 times
+2023-04-26T18:57:26-06:00 baboon-srv sshd[6433]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:26-06:00 baboon-srv sshd[6435]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:28-06:00 baboon-srv sshd[6435]: Failed password for root from 172.30.1.77 port 60378 ssh2
+2023-04-26T18:57:31-06:00 baboon-srv sshd[6435]: last message repeated 2 times
+2023-04-26T18:57:31-06:00 baboon-srv sshd[6435]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:31-06:00 baboon-srv sshd[6437]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:34-06:00 baboon-srv sshd[6437]: Failed password for root from 172.30.1.77 port 60379 ssh2
+2023-04-26T18:57:37-06:00 baboon-srv sshd[6437]: last message repeated 2 times
+2023-04-26T18:57:37-06:00 baboon-srv sshd[6437]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:37-06:00 baboon-srv sshd[6439]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:39-06:00 baboon-srv sshd[6439]: Failed password for root from 172.30.1.77 port 60380 ssh2
+2023-04-26T18:57:43-06:00 baboon-srv sshd[6439]: last message repeated 2 times
+2023-04-26T18:57:43-06:00 baboon-srv sshd[6439]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:43-06:00 baboon-srv sshd[6441]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:46-06:00 baboon-srv sshd[6441]: Failed password for root from 172.30.1.77 port 60381 ssh2
+2023-04-26T18:57:49-06:00 baboon-srv sshd[6441]: last message repeated 2 times
+2023-04-26T18:57:49-06:00 baboon-srv sshd[6441]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:49-06:00 baboon-srv sshd[6443]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:51-06:00 baboon-srv sshd[6443]: Failed password for root from 172.30.1.77 port 60382 ssh2
+2023-04-26T18:57:55-06:00 baboon-srv sshd[6443]: last message repeated 2 times
+2023-04-26T18:57:55-06:00 baboon-srv sshd[6443]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:55-06:00 baboon-srv sshd[6445]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:57:57-06:00 baboon-srv sshd[6445]: Failed password for root from 172.30.1.77 port 60383 ssh2
+2023-04-26T18:58:02-06:00 baboon-srv sshd[6445]: last message repeated 2 times
+2023-04-26T18:58:02-06:00 baboon-srv sshd[6445]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:02-06:00 baboon-srv sshd[6447]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:04-06:00 baboon-srv sshd[6447]: Failed password for root from 172.30.1.77 port 60384 ssh2
+2023-04-26T18:58:08-06:00 baboon-srv sshd[6447]: last message repeated 2 times
+2023-04-26T18:58:08-06:00 baboon-srv sshd[6447]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:08-06:00 baboon-srv sshd[6449]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:10-06:00 baboon-srv sshd[6449]: Failed password for root from 172.30.1.77 port 60385 ssh2
+2023-04-26T18:58:13-06:00 baboon-srv sshd[6449]: last message repeated 2 times
+2023-04-26T18:58:13-06:00 baboon-srv sshd[6449]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:14-06:00 baboon-srv sshd[6451]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:16-06:00 baboon-srv sshd[6451]: Failed password for root from 172.30.1.77 port 60386 ssh2
+2023-04-26T18:58:20-06:00 baboon-srv sshd[6451]: last message repeated 2 times
+2023-04-26T18:58:20-06:00 baboon-srv sshd[6451]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:20-06:00 baboon-srv sshd[6453]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:22-06:00 baboon-srv sshd[6453]: Failed password for root from 172.30.1.77 port 60387 ssh2
+2023-04-26T18:58:26-06:00 baboon-srv sshd[6453]: last message repeated 2 times
+2023-04-26T18:58:26-06:00 baboon-srv sshd[6453]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:26-06:00 baboon-srv sshd[6455]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:28-06:00 baboon-srv sshd[6455]: Failed password for root from 172.30.1.77 port 60388 ssh2
+2023-04-26T18:58:32-06:00 baboon-srv sshd[6455]: last message repeated 2 times
+2023-04-26T18:58:32-06:00 baboon-srv sshd[6455]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:32-06:00 baboon-srv sshd[6457]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:34-06:00 baboon-srv sshd[6457]: Failed password for root from 172.30.1.77 port 60389 ssh2
+2023-04-26T18:58:38-06:00 baboon-srv sshd[6457]: last message repeated 2 times
+2023-04-26T18:58:38-06:00 baboon-srv sshd[6457]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:38-06:00 baboon-srv sshd[6459]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:41-06:00 baboon-srv sshd[6459]: Failed password for root from 172.30.1.77 port 60390 ssh2
+2023-04-26T18:58:44-06:00 baboon-srv sshd[6459]: last message repeated 2 times
+2023-04-26T18:58:44-06:00 baboon-srv sshd[6459]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:45-06:00 baboon-srv sshd[6461]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:47-06:00 baboon-srv sshd[6461]: Failed password for root from 172.30.1.77 port 60391 ssh2
+2023-04-26T18:58:51-06:00 baboon-srv sshd[6461]: last message repeated 2 times
+2023-04-26T18:58:51-06:00 baboon-srv sshd[6461]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:51-06:00 baboon-srv sshd[6463]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:54-06:00 baboon-srv sshd[6463]: Failed password for root from 172.30.1.77 port 60392 ssh2
+2023-04-26T18:58:58-06:00 baboon-srv sshd[6463]: last message repeated 2 times
+2023-04-26T18:58:58-06:00 baboon-srv sshd[6463]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:58:58-06:00 baboon-srv sshd[6465]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:00-06:00 baboon-srv sshd[6465]: Failed password for root from 172.30.1.77 port 60393 ssh2
+2023-04-26T18:59:04-06:00 baboon-srv sshd[6465]: last message repeated 2 times
+2023-04-26T18:59:04-06:00 baboon-srv sshd[6465]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:04-06:00 baboon-srv sshd[6467]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:07-06:00 baboon-srv sshd[6467]: Failed password for root from 172.30.1.77 port 60394 ssh2
+2023-04-26T18:59:11-06:00 baboon-srv sshd[6467]: last message repeated 2 times
+2023-04-26T18:59:11-06:00 baboon-srv sshd[6467]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:11-06:00 baboon-srv sshd[6469]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:13-06:00 baboon-srv sshd[6469]: Failed password for root from 172.30.1.77 port 60395 ssh2
+2023-04-26T18:59:18-06:00 baboon-srv sshd[6469]: last message repeated 2 times
+2023-04-26T18:59:18-06:00 baboon-srv sshd[6469]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:18-06:00 baboon-srv sshd[6471]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:20-06:00 baboon-srv sshd[6471]: Failed password for root from 172.30.1.77 port 60396 ssh2
+2023-04-26T18:59:24-06:00 baboon-srv sshd[6471]: last message repeated 2 times
+2023-04-26T18:59:24-06:00 baboon-srv sshd[6471]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:24-06:00 baboon-srv sshd[6473]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:27-06:00 baboon-srv sshd[6473]: Failed password for root from 172.30.1.77 port 60397 ssh2
+2023-04-26T18:59:31-06:00 baboon-srv sshd[6473]: last message repeated 2 times
+2023-04-26T18:59:31-06:00 baboon-srv sshd[6473]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:31-06:00 baboon-srv sshd[6475]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:33-06:00 baboon-srv sshd[6475]: Failed password for root from 172.30.1.77 port 60398 ssh2
+2023-04-26T18:59:38-06:00 baboon-srv sshd[6475]: last message repeated 2 times
+2023-04-26T18:59:38-06:00 baboon-srv sshd[6475]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:38-06:00 baboon-srv sshd[6477]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:40-06:00 baboon-srv sshd[6477]: Failed password for root from 172.30.1.77 port 49172 ssh2
+2023-04-26T18:59:43-06:00 baboon-srv sshd[6477]: last message repeated 2 times
+2023-04-26T18:59:43-06:00 baboon-srv sshd[6477]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:43-06:00 baboon-srv sshd[6479]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:46-06:00 baboon-srv sshd[6479]: Failed password for root from 172.30.1.77 port 49173 ssh2
+2023-04-26T18:59:50-06:00 baboon-srv sshd[6479]: last message repeated 2 times
+2023-04-26T18:59:50-06:00 baboon-srv sshd[6479]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:50-06:00 baboon-srv sshd[6481]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:53-06:00 baboon-srv sshd[6481]: Failed password for root from 172.30.1.77 port 49174 ssh2
+2023-04-26T18:59:55-06:00 baboon-srv sshd[6481]: last message repeated 2 times
+2023-04-26T18:59:55-06:00 baboon-srv sshd[6481]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:55-06:00 baboon-srv sshd[6483]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T18:59:58-06:00 baboon-srv sshd[6483]: Failed password for root from 172.30.1.77 port 49175 ssh2
+2023-04-26T19:00:02-06:00 baboon-srv sshd[6483]: last message repeated 2 times
+2023-04-26T19:00:02-06:00 baboon-srv sshd[6483]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:02-06:00 baboon-srv sshd[6485]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:04-06:00 baboon-srv sshd[6485]: Failed password for root from 172.30.1.77 port 49176 ssh2
+2023-04-26T19:00:07-06:00 baboon-srv sshd[6485]: last message repeated 2 times
+2023-04-26T19:00:07-06:00 baboon-srv sshd[6485]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:07-06:00 baboon-srv sshd[6487]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:10-06:00 baboon-srv sshd[6487]: Failed password for root from 172.30.1.77 port 49177 ssh2
+2023-04-26T19:00:14-06:00 baboon-srv sshd[6487]: last message repeated 2 times
+2023-04-26T19:00:14-06:00 baboon-srv sshd[6487]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:14-06:00 baboon-srv sshd[6489]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:16-06:00 baboon-srv sshd[6489]: Failed password for root from 172.30.1.77 port 49178 ssh2
+2023-04-26T19:00:19-06:00 baboon-srv sshd[6489]: last message repeated 2 times
+2023-04-26T19:00:19-06:00 baboon-srv sshd[6489]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:19-06:00 baboon-srv sshd[6491]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:21-06:00 baboon-srv sshd[6491]: Failed password for root from 172.30.1.77 port 49179 ssh2
+2023-04-26T19:00:26-06:00 baboon-srv sshd[6491]: last message repeated 2 times
+2023-04-26T19:00:26-06:00 baboon-srv sshd[6491]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:26-06:00 baboon-srv sshd[6493]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:28-06:00 baboon-srv sshd[6493]: Failed password for root from 172.30.1.77 port 49180 ssh2
+2023-04-26T19:00:32-06:00 baboon-srv sshd[6493]: last message repeated 2 times
+2023-04-26T19:00:32-06:00 baboon-srv sshd[6493]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:32-06:00 baboon-srv sshd[6495]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:34-06:00 baboon-srv sshd[6495]: Failed password for root from 172.30.1.77 port 49181 ssh2
+2023-04-26T19:00:38-06:00 baboon-srv sshd[6495]: last message repeated 2 times
+2023-04-26T19:00:38-06:00 baboon-srv sshd[6495]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:38-06:00 baboon-srv sshd[6497]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:39-06:00 baboon-srv sshd[6497]: Failed password for root from 172.30.1.77 port 49182 ssh2
+2023-04-26T19:00:43-06:00 baboon-srv sshd[6497]: last message repeated 2 times
+2023-04-26T19:00:43-06:00 baboon-srv sshd[6497]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:43-06:00 baboon-srv sshd[6499]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:45-06:00 baboon-srv sshd[6499]: Failed password for root from 172.30.1.77 port 49183 ssh2
+2023-04-26T19:00:49-06:00 baboon-srv sshd[6499]: last message repeated 2 times
+2023-04-26T19:00:49-06:00 baboon-srv sshd[6499]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:49-06:00 baboon-srv sshd[6501]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:51-06:00 baboon-srv sshd[6501]: Failed password for root from 172.30.1.77 port 49184 ssh2
+2023-04-26T19:00:54-06:00 baboon-srv sshd[6501]: last message repeated 2 times
+2023-04-26T19:00:54-06:00 baboon-srv sshd[6501]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:54-06:00 baboon-srv sshd[6503]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=root
+2023-04-26T19:00:56-06:00 baboon-srv sshd[6503]: Failed password for root from 172.30.1.77 port 49185 ssh2
+2023-04-26T19:00:57-06:00 baboon-srv sshd[6505]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:00:59-06:00 baboon-srv sshd[6505]: Failed password for bob from 172.30.1.77 port 49186 ssh2
+2023-04-26T19:01:03-06:00 baboon-srv sshd[6505]: last message repeated 2 times
+2023-04-26T19:01:03-06:00 baboon-srv sshd[6505]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:04-06:00 baboon-srv sshd[6507]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:06-06:00 baboon-srv sshd[6507]: Failed password for bob from 172.30.1.77 port 49187 ssh2
+2023-04-26T19:01:10-06:00 baboon-srv sshd[6507]: last message repeated 2 times
+2023-04-26T19:01:10-06:00 baboon-srv sshd[6507]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:11-06:00 baboon-srv sshd[6509]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:13-06:00 baboon-srv sshd[6509]: Failed password for bob from 172.30.1.77 port 49188 ssh2
+2023-04-26T19:01:16-06:00 baboon-srv sshd[6509]: last message repeated 2 times
+2023-04-26T19:01:16-06:00 baboon-srv sshd[6509]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:17-06:00 baboon-srv sshd[6511]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:19-06:00 baboon-srv sshd[6511]: Failed password for bob from 172.30.1.77 port 49189 ssh2
+2023-04-26T19:01:23-06:00 baboon-srv sshd[6511]: last message repeated 2 times
+2023-04-26T19:01:23-06:00 baboon-srv sshd[6511]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:24-06:00 baboon-srv sshd[6513]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:25-06:00 baboon-srv sshd[6513]: Failed password for bob from 172.30.1.77 port 49190 ssh2
+2023-04-26T19:01:29-06:00 baboon-srv sshd[6513]: last message repeated 2 times
+2023-04-26T19:01:29-06:00 baboon-srv sshd[6513]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:30-06:00 baboon-srv sshd[6515]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:32-06:00 baboon-srv sshd[6515]: Failed password for bob from 172.30.1.77 port 49191 ssh2
+2023-04-26T19:01:37-06:00 baboon-srv sshd[6515]: last message repeated 2 times
+2023-04-26T19:01:37-06:00 baboon-srv sshd[6515]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:37-06:00 baboon-srv sshd[6517]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:39-06:00 baboon-srv sshd[6517]: Failed password for bob from 172.30.1.77 port 49192 ssh2
+2023-04-26T19:01:43-06:00 baboon-srv sshd[6517]: last message repeated 2 times
+2023-04-26T19:01:43-06:00 baboon-srv sshd[6517]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:44-06:00 baboon-srv sshd[6519]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:45-06:00 baboon-srv sshd[6519]: Failed password for bob from 172.30.1.77 port 49193 ssh2
+2023-04-26T19:01:49-06:00 baboon-srv sshd[6519]: last message repeated 2 times
+2023-04-26T19:01:49-06:00 baboon-srv sshd[6519]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:50-06:00 baboon-srv sshd[6521]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:52-06:00 baboon-srv sshd[6521]: Failed password for bob from 172.30.1.77 port 49194 ssh2
+2023-04-26T19:01:56-06:00 baboon-srv sshd[6521]: last message repeated 2 times
+2023-04-26T19:01:56-06:00 baboon-srv sshd[6521]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:57-06:00 baboon-srv sshd[6523]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:01:59-06:00 baboon-srv sshd[6523]: Failed password for bob from 172.30.1.77 port 49195 ssh2
+2023-04-26T19:02:02-06:00 baboon-srv sshd[6523]: last message repeated 2 times
+2023-04-26T19:02:02-06:00 baboon-srv sshd[6523]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:03-06:00 baboon-srv sshd[6525]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:04-06:00 baboon-srv sshd[6525]: Failed password for bob from 172.30.1.77 port 49196 ssh2
+2023-04-26T19:02:09-06:00 baboon-srv sshd[6525]: last message repeated 2 times
+2023-04-26T19:02:09-06:00 baboon-srv sshd[6525]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:09-06:00 baboon-srv sshd[6527]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:11-06:00 baboon-srv sshd[6527]: Failed password for bob from 172.30.1.77 port 49197 ssh2
+2023-04-26T19:02:15-06:00 baboon-srv sshd[6527]: last message repeated 2 times
+2023-04-26T19:02:15-06:00 baboon-srv sshd[6527]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:15-06:00 baboon-srv sshd[6529]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:18-06:00 baboon-srv sshd[6529]: Failed password for bob from 172.30.1.77 port 49198 ssh2
+2023-04-26T19:02:22-06:00 baboon-srv sshd[6529]: last message repeated 2 times
+2023-04-26T19:02:22-06:00 baboon-srv sshd[6529]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:22-06:00 baboon-srv sshd[6531]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:24-06:00 baboon-srv sshd[6531]: Failed password for bob from 172.30.1.77 port 49199 ssh2
+2023-04-26T19:02:28-06:00 baboon-srv sshd[6531]: last message repeated 2 times
+2023-04-26T19:02:28-06:00 baboon-srv sshd[6531]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:28-06:00 baboon-srv sshd[6533]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:31-06:00 baboon-srv sshd[6533]: Failed password for bob from 172.30.1.77 port 49200 ssh2
+2023-04-26T19:02:35-06:00 baboon-srv sshd[6533]: last message repeated 2 times
+2023-04-26T19:02:35-06:00 baboon-srv sshd[6533]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:36-06:00 baboon-srv sshd[6535]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:37-06:00 baboon-srv sshd[6535]: Failed password for bob from 172.30.1.77 port 49201 ssh2
+2023-04-26T19:02:41-06:00 baboon-srv sshd[6535]: last message repeated 2 times
+2023-04-26T19:02:41-06:00 baboon-srv sshd[6535]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:42-06:00 baboon-srv sshd[6537]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:44-06:00 baboon-srv sshd[6537]: Failed password for bob from 172.30.1.77 port 49202 ssh2
+2023-04-26T19:02:48-06:00 baboon-srv sshd[6537]: last message repeated 2 times
+2023-04-26T19:02:48-06:00 baboon-srv sshd[6537]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:48-06:00 baboon-srv sshd[6539]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:50-06:00 baboon-srv sshd[6539]: Failed password for bob from 172.30.1.77 port 49203 ssh2
+2023-04-26T19:02:54-06:00 baboon-srv sshd[6539]: last message repeated 2 times
+2023-04-26T19:02:54-06:00 baboon-srv sshd[6539]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:55-06:00 baboon-srv sshd[6541]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:02:57-06:00 baboon-srv sshd[6541]: Failed password for bob from 172.30.1.77 port 49204 ssh2
+2023-04-26T19:03:01-06:00 baboon-srv sshd[6541]: last message repeated 2 times
+2023-04-26T19:03:01-06:00 baboon-srv sshd[6541]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:03:01-06:00 baboon-srv sshd[6543]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:03:03-06:00 baboon-srv sshd[6543]: Failed password for bob from 172.30.1.77 port 49205 ssh2
+2023-04-26T19:03:08-06:00 baboon-srv sshd[6543]: last message repeated 2 times
+2023-04-26T19:03:08-06:00 baboon-srv sshd[6543]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:03:08-06:00 baboon-srv sshd[6545]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:03:10-06:00 baboon-srv sshd[6545]: Failed password for bob from 172.30.1.77 port 49206 ssh2
+2023-04-26T19:03:15-06:00 baboon-srv sshd[6545]: last message repeated 2 times
+2023-04-26T19:03:15-06:00 baboon-srv sshd[6545]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:03:15-06:00 baboon-srv sshd[6547]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:03:18-06:00 baboon-srv sshd[6547]: Failed password for bob from 172.30.1.77 port 49207 ssh2
+2023-04-26T19:03:22-06:00 baboon-srv sshd[6547]: last message repeated 2 times
+2023-04-26T19:03:22-06:00 baboon-srv sshd[6547]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:03:22-06:00 baboon-srv sshd[6549]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:03:25-06:00 baboon-srv sshd[6549]: Failed password for bob from 172.30.1.77 port 49208 ssh2
+2023-04-26T19:03:30-06:00 baboon-srv sshd[6549]: last message repeated 2 times
+2023-04-26T19:03:30-06:00 baboon-srv sshd[6549]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:03:30-06:00 baboon-srv sshd[6551]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:03:32-06:00 baboon-srv sshd[6551]: Failed password for bob from 172.30.1.77 port 49209 ssh2
+2023-04-26T19:03:37-06:00 baboon-srv sshd[6551]: last message repeated 2 times
+2023-04-26T19:03:37-06:00 baboon-srv sshd[6551]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:03:37-06:00 baboon-srv sshd[6553]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:03:39-06:00 baboon-srv sshd[6553]: Failed password for bob from 172.30.1.77 port 49210 ssh2
+2023-04-26T19:03:43-06:00 baboon-srv sshd[6553]: last message repeated 2 times
+2023-04-26T19:03:43-06:00 baboon-srv sshd[6553]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:03:44-06:00 baboon-srv sshd[6555]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:03:46-06:00 baboon-srv sshd[6555]: Failed password for bob from 172.30.1.77 port 49211 ssh2
+2023-04-26T19:03:51-06:00 baboon-srv sshd[6555]: last message repeated 2 times
+2023-04-26T19:03:51-06:00 baboon-srv sshd[6555]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:03:52-06:00 baboon-srv sshd[6557]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:03:54-06:00 baboon-srv sshd[6557]: Failed password for bob from 172.30.1.77 port 49212 ssh2
+2023-04-26T19:03:58-06:00 baboon-srv sshd[6557]: last message repeated 2 times
+2023-04-26T19:03:58-06:00 baboon-srv sshd[6557]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:03:59-06:00 baboon-srv sshd[6559]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:04:00-06:00 baboon-srv sshd[6559]: Failed password for bob from 172.30.1.77 port 49213 ssh2
+2023-04-26T19:04:05-06:00 baboon-srv sshd[6559]: last message repeated 2 times
+2023-04-26T19:04:05-06:00 baboon-srv sshd[6559]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:04:05-06:00 baboon-srv sshd[6561]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.30.1.77  user=bob
+2023-04-26T19:04:07-06:00 baboon-srv sshd[6561]: Failed password for bob from 172.30.1.77 port 49214 ssh2
+2023-04-26T19:04:07-06:00 baboon-srv sshd[6561]: Accepted password for bob from 172.30.1.77 port 49214 ssh2
+2023-04-26T19:04:07-06:00 baboon-srv sshd[6561]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+2023-04-26T19:04:08-06:00 baboon-srv sshd[6631]: Received disconnect from 172.30.1.77: 11: 
+2023-04-26T19:04:08-06:00 baboon-srv sshd[6561]: pam_unix(sshd:session): session closed for user bob
+2023-04-26T19:04:33-06:00 baboon-srv sshd[6632]: Accepted password for bob from 172.30.1.77 port 49215 ssh2
+2023-04-26T19:04:33-06:00 baboon-srv sshd[6632]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+2023-04-26T19:05:10-06:00 baboon-srv sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=  user=bob
+2023-04-26T19:05:18-06:00 baboon-srv sudo:      bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/vi /var/log/auth.log
+2023-04-26T19:05:34-06:00 baboon-srv sudo:      bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/tcpdump -nni eth0
+2023-04-26T19:07:03-06:00 baboon-srv sudo:      bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+2023-04-26T19:07:15-06:00 baboon-srv sudo:      bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get install nmap
+2023-04-26T19:14:53-06:00 baboon-srv sshd[6632]: pam_unix(sshd:session): session closed for user bob
+2023-04-26T19:17:01-06:00 baboon-srv CRON[6797]: pam_unix(cron:session): session opened for user root by (uid=0)
+2023-04-26T19:17:01-06:00 baboon-srv CRON[6797]: pam_unix(cron:session): session closed for user root
+2023-04-26T19:17:01.627528-06:00 cheetah-srv CRON[11843]: pam_unix(cron:session): session opened for user root by (uid=0)
+2023-04-26T19:17:01.634766-06:00 cheetah-srv CRON[11843]: pam_unix(cron:session): session closed for user root
