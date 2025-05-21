@@ -1,6 +1,5 @@
-# LogEvent_Timeline_Analyzer
-This script parses system log files (auth.log, firewall.log, workstations.log) and generates a clean, color-coded timeline of important security and system events. It is designed for incident response, log analysis, and digital forensics.
 
+This script parses system log files (auth.log, firewall.log, workstations.log) and generates a clean, color-coded timeline of important security and system events. It is designed for incident response, log analysis, and digital forensics.
 
 ![Capture](Capture.PNG)
 
