@@ -18,7 +18,6 @@ This script parses system log files (auth.log, firewall.log, workstations.log) a
 - `auth.log` → Green
 - `firewall.log` → Red
 - `workstations.log` → Blue
-- Table Headers → White
 
 ## 🚀 Usage
 ```bash
